@@ -1,0 +1,68 @@
+# Secrets
+.env
+*.env
+!.env.example
+*vars-secret*.yml
+*vars-secret*.yaml
+*.pem
+*.key
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+terraform.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Docker images and archives
+*.tar
+*.tar.gz
+
+# Editor files
+.vscode/
+.idea/
+
+# Terraform generated files
+**/tfplan
+**/tfplan-review
+**/terraform.tfstate*
+**/.terraform/
+
+# Local backups
+*.bak
+
+# Sensitive local configuration
+terraform.tfvars
+*.pem
+*.env
+
+# Terraform local files
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+tfplan-review
+**/tfplan
+**/tfplan-review
+terraform.tfvars
+
+# Local backups and archives
+*.bak
+*.tar
+*.tar.gz
+
+# Credentials
+*.pem
+*.key
+*.env
+
+# Ansible secrets
+ansible/db-vars.yml
+ansible/inventory.ini

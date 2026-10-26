@@ -1,0 +1,7 @@
+---
+mysql_database: appdb
+mysql_user: appuser
+mysql_container_name: mysql-db
+
+# Define mysql_root_password and mysql_password securely.
+# Do not commit actual passwords.
